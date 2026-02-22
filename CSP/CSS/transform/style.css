@@ -1,0 +1,25 @@
+.box{
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scale(2); */
+    /* transform: skew(20deg, 40deg); */
+    /* transform: translate(100px, 100px); */
+    /* transform: rotate(30deg); */
+    /* transition: 2s ease; */
+    transition-duration: 2s;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(0.8,-1.02, 0, 2.56);
+}
+.box:hover{
+    transform: rotate(720deg);
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+}

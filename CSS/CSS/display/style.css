@@ -1,0 +1,19 @@
+nav{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: wheat;
+}
+li{
+    display: inline;
+    margin: 30px;
+    border: 1px solid red;
+    padding: 10px;
+}
+ul{
+    text-align: end;
+}
+li:hover{
+    background-color: skyblue;
+    color: white;
+    font-family: fantasy;
+}

@@ -1,0 +1,24 @@
+.container{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; /* works upon the main axis (x-axis) */
+    align-items: center;  /* works upon the cross axis (y-axis) */
+}
+.box{
+    width: 100px;
+    border: 1px solid red;
+}
+#box-5{
+    flex-grow: 1;
+}
+#box-7{
+    flex-grow: 2;
+}
+#box-8{
+    flex-grow: 3;
+}

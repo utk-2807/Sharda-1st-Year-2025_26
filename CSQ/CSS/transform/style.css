@@ -1,0 +1,25 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 200px auto;
+    background-color: turquoise;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(100px, 100px); */
+    /* transform: skew(30deg, 30deg); */
+    /* transform: scale(2); */
+    /* transform: rotate(180deg); */
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0, 2.42, 1, -0.73);
+}
+.box:hover{
+    transform: rotate(720deg);
+    border-radius: 50%;
+    background-color: sienna;
+}

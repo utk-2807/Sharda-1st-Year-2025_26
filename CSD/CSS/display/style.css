@@ -1,0 +1,22 @@
+nav{
+    border: 1px solid black;
+    margin: 0px;
+    background-color: aquamarine;
+    height: 120px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+ul{
+    text-align: end;
+}
+li{
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+    border: 5px solid red;
+}
+li:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}

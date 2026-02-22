@@ -1,0 +1,6 @@
+There are different types of units in CSS :-
+1. vw/vh -> Relative to the parent element
+2. % -> Absolute in Nature
+3. em -> Relative to the parent element
+4. rem -> Relative to the root element. Every element's root element is HTML
+5. px -> Absolute in Nature

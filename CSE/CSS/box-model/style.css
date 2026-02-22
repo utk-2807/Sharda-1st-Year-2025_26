@@ -1,0 +1,9 @@
+.box{
+    border: 10px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+    margin: 100px;
+    padding: 50px;
+    box-sizing: border-box;
+}

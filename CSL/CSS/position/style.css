@@ -1,0 +1,36 @@
+*{
+    height: 500vh;
+}
+.container{
+    margin: 80px auto;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+.violet{
+    background-color: violet;
+    position: absolute;
+    left: 100px;
+}
+.green{
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    right: 150px;
+}
+.blue{
+    background-color: blue;
+    position: sticky;
+    top: 200px;
+}

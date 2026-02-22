@@ -1,0 +1,21 @@
+nav{
+    background-color: slategrey;
+    height: 10vh;
+    border: 1px solid black;
+    padding: 20px;
+}
+li{
+    display: inline;
+    border: 5px solid white;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+ul{
+    text-align: right;
+}
+li:hover{
+    cursor: pointer;
+    border-color: red;
+    color: red;
+}

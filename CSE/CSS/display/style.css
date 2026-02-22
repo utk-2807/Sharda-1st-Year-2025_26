@@ -1,0 +1,19 @@
+nav{
+    height: 100px;
+    border: 1px solid red;
+    background-color: steelblue;
+}
+li{
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+    border: 2px solid beige;
+    color: beige;
+}
+ul{
+    text-align: end;
+}
+li:hover{
+    background-color: beige;
+    color: steelblue;
+}

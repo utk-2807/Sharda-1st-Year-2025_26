@@ -1,0 +1,41 @@
+*{
+    height: 1000vh;
+}
+.boxes{
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+    margin: 100px auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+.yellow{
+    /* background-color: yellow;
+    position: absolute;
+    left: 200px; */
+    background-color: yellow;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    z-index: 1;
+}
+.blue{
+    background-color: blue;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    z-index: 2;
+}
+.green{
+    background-color: green;
+    position: sticky;
+    top: 200px;
+}

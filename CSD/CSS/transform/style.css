@@ -1,0 +1,16 @@
+.box{
+    margin: 150px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(65, 139, 237);
+    border: 5px solid rgb(46, 46, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 700;
+    /* transform: translate(200px, 300px); */
+    /* transform: rotate(45deg); */
+    /* transform: skew(30deg, 30deg); */
+    /* transform: scale(2); */
+}

@@ -1,0 +1,17 @@
+.container{
+    border: 10px solid black;
+    height: 500px;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: end; /* main axis (x) */
+    align-items: start; /* cross axis (y) */
+}
+.box{
+    border: 3px solid red;
+    width: 100px;
+}
